@@ -13,7 +13,7 @@ st.set_page_config(
 # --- Load the Model ---
 @st.cache_resource
 def load_model():
-    with open("model.pkl", "rb") as file:
+    with open("model (2).pkl", "rb") as file:
         model = pickle.load(file)
     return model
 
