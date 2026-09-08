@@ -74,7 +74,7 @@ st.markdown('<p class="sub-title">Advanced Support Vector Regression (SVR) Perfo
 def load_model():
     try:
         # Update this filename if yours is still "model (2).pkl"
-        with open("model.pkl", "rb") as file:
+        with open("model (2).pkl", "rb") as file:
             return pickle.load(file)
     except FileNotFoundError:
         return None
